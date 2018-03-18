@@ -20,7 +20,8 @@ end
 
 group :test do
   gem 'selenium-webdriver'
-  gem 'capybara'
+  gem 'capybara', '2.2.0'
+  gem 'growl', '1.0.3'
 end
 
 gem 'jquery-rails'
